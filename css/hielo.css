@@ -1,0 +1,88 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*navigation*/
+
+#my-navigation{
+    background:none;
+    border: none;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+}
+#my-navigation .navbar-toggle{
+    display: block;
+    border: 0;
+}
+#my-navigation .navbar-toggle:hover{
+    background: none;  
+    cursor: pointer;
+}
+#my-navigation .navbar-header{
+    float: none;
+}
+#my-navigation .navbar-right{
+    float: left !important;
+}
+#my-navigation .icon-bar{
+    background-color: white;
+}
+#my-navigation .icon-bar-left{
+    float: left;
+}
+#my-navigation .icon-right{
+    float: right;
+    position: relative;
+    top: -3px;
+    padding-left: 10px;
+    color: #ffffff;
+}
+#my-navigation .navbar-brand, #my-navigation ul li a{
+    color: #ffffff;
+}
+
+/*carousel start*/
+.my-container{
+    padding: 0;
+    color: #ffffff;
+}
+.carousel .item{
+    background-image: url("../image/img1.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+.carousel .item-2{
+    background-image: url("../image/img2.jpg");
+}
+.carousel .item-2{
+    background-image: url("../image/img3.jpg");
+}
+.carousel .item-2{
+    background-image: url("../image/img4.jpg");
+}
+.carousel .item-2{
+    background-image: url("../image/img5.jpg");
+}
+
+/*banner*/
+.banner-text{
+    text-align: center;
+    width: 35%;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    z-index: 20;
+}
+.banner-text hr{
+    width: 50%;
+}
+.banner-text p{
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.banner-text h1{
+    font-size: 80px;
+    font-weight: 100;
+    margin-top: 5px;
+}
